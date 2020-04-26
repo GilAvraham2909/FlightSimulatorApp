@@ -23,6 +23,7 @@ The view includes:
 * Joystick witch controll the plain.
 * Unit Controll of the plain
 * Map witch allow us to see the place of the plain in real time
+* Messege text box for eney errors frome the server.
 
 ## Run:
 * For the first time go into the Enviorment and run the project.
