@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="FlightSimulatorApp.View.Map"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FlightSimulatorApp"
+             mc:Ignorable="d"
+             xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+             d:DesignHeight="500" d:DesignWidth="600">
+    <UserControl.Resources>
+        <ControlTemplate x:Key="Plane" TargetType="m:Pushpin">
+            <Grid>
+                <Rectangle>
+                    <Rectangle.Fill>
+                        <ImageBrush ImageSource="aeroplane.png"/>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+        </ControlTemplate>
+    </UserControl.Resources>
+
+    <Grid>
+        <m:Map CredentialsProvider="AngGEP_Bx-4OdAAeQoeeRt-t19YVwEY3nA8we_cno7zwCoLfvL3ARke3oWO14DEM" Center="32.002644, 34.888781" ZoomLevel="12">
+            <m:Pushpin Template="{StaticResource Plane}" Location="{Binding VM_Location, Mode=OneWay}"/>
+        </m:Map>
+    </Grid>
+</UserControl>

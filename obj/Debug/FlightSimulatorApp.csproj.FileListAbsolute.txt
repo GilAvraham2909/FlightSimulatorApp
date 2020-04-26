@@ -1,0 +1,5 @@
+C:\Users\Gil\source\repos\FlightSimulator\FlightSimulatorApp\bin\Debug\FlightSimulatorApp.exe.config
+C:\Users\Gil\source\repos\FlightSimulator\FlightSimulatorApp\bin\Debug\FlightSimulatorApp.exe
+C:\Users\Gil\source\repos\FlightSimulator\FlightSimulatorApp\bin\Debug\FlightSimulatorApp.pdb
+C:\Users\Gil\source\repos\FlightSimulator\FlightSimulatorApp\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Gil\source\repos\FlightSimulator\FlightSimulatorApp\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
