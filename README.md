@@ -8,7 +8,7 @@ The view includes the interface of the app witch can control the plain who fly i
 
 ## Owners:
 * Gil Avraham, Git: https://github.com/GilAvraham2909
-* Eliyahu Tauber, Git: 
+* Eliyahu Tauber, Git: https://github.com/ELIYAHUT123
 
 ## Installing
 - Linux environment to run the code, i used Visual Studio 2019.
